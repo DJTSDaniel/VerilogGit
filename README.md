@@ -1,1 +1,1 @@
-# VerilogGit
+# Verilog
