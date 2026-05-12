@@ -3,6 +3,13 @@
 <Project>
     <Template>FPGA</Template>
     <Version>5</Version>
-    <Device name="" pn="">gw1nr9c-004</Device>
-    <FileList/>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/AutomataA.v" type="file.verilog" enable="1"/>
+        <File path="src/FlipFlopD.v" type="file.verilog" enable="1"/>
+        <File path="src/decoDisplayLetras.v" type="file.verilog" enable="1"/>
+        <File path="src/pReloj.v" type="file.verilog" enable="1"/>
+        <File path="src/AutomataA.cst" type="file.cst" enable="1"/>
+        <File path="src/AutomataA.sdc" type="file.sdc" enable="1"/>
+    </FileList>
 </Project>
